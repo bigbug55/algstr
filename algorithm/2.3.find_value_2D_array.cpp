@@ -66,7 +66,7 @@ int test3()
 		4, 7, 10,13,
 		6, 8, 11, 15};
 	//printf("find_value = %d\n", p[2*4+1]);
-	return find_value(p, 4, 4, 15);
+	return find_value(p, 4, 4, 16);
 }
 
 //testcase4:
@@ -80,7 +80,7 @@ int test4()
 int main()
 {
 	assert( test2() == 7 );
-	assert( test3() == 15 );
+	assert( test3() == -1 );
 	assert( test4() == -1 );
 	return 0;	
 }
